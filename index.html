@@ -7,25 +7,68 @@
     <title>P.R.I.M.E High Ticket Lead Generation System</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.png" type="image/png">
-     <style>
- /* Book Now button */
-.book-now {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.book-now:hover {
-    background-color: #666;
-}
-
+    <style>
+        /* Global Resets */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(-45deg, #5a778f, #8e5c92, #1f3d6b, #2a8b7d);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 100vh;
+        }
+        /* Header and Navigation */
+        header {
+            background-color: #333;
+            padding: 1rem;
+            color: #fff;
+        }
+        .header-nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 1rem;
+        }
+        .header-nav ul li {
+            margin: 0 1rem;
+        }
+        .header-nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        /* Book Now button */
+        #booking {
+            text-align: center;
+            padding: 2rem;
+        }
+        .book-now {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .book-now:hover {
+            background-color: #666;
+        }
+        /* Video styling */
+        #videos video {
+            display: block;
+            width: 100%;
+        }
     </style>
 </head>
+
 <body>
     <header>
         <nav class="header-nav">
@@ -84,12 +127,11 @@
 
             <!-- Repeat the above video element with appropriate video file names (5.mp4 - 11.mp4) -->
 
-        </section>
-        <section id="booking">
-            <a href="https://calendly.com/rianleok/exclusive-one-on-one-marketing-consultation-with-le" target="_blank">
-                Book Now
-            </a>
-        </section>
+       <section id="booking">
+    <a href="https://calendly.com/rianleok/exclusive-one-on-one-marketing-consultation-with-le" class="book-now" target="_blank">
+        Book Now
+    </a>
+</section>
     </main>
 </body>
 </html>
