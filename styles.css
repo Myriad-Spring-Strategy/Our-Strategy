@@ -33,6 +33,7 @@ body {
     background-position: center center;
     background-color: #d6dfe6;
     overflow: hidden;
+     min-height: 1200px;
 }
 
 .section:before {
