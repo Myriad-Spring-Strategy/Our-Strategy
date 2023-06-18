@@ -181,7 +181,7 @@ p strong[color="#2a82e0"] {
     background-position: center, center;
     background-attachment: scroll, fixed; 
     padding: 35px 35px;
-     position: relative;
+  
     min-height: 800px; /* this will ensure that the minimum height of the section is 800px */
     margin: 100px 0;
     text-align: center;
