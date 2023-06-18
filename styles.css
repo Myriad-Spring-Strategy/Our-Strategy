@@ -64,6 +64,9 @@ body {
 #fifth-section {
     background-image: url('end.png');
 }
+#fifth-section:before {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 
 .container {
     display: flex;
