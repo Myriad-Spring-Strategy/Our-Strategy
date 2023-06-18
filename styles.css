@@ -1,5 +1,9 @@
 body {
-    background: #d6dfe6;
+    background: url('allbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 565;
     letter-spacing: 0.07em;
@@ -53,7 +57,7 @@ background-color: #1F1F1F;
 }
 
 #second-section {
-    background-image: url('0_3.png');
+    background-image: url('g.png');
 }
 
 #third-section {
@@ -156,7 +160,11 @@ p strong[color="#2a82e0"] {
 }
 
 .quote-section {
-    background-color: #f0f0f0;
+    background-image: url('banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     padding: 35px 35px;
     margin: 100px 0;
     text-align: center;
