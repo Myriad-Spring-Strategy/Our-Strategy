@@ -143,13 +143,9 @@ p strong[color="#2a82e0"] {
     font-size: 27px; /* adjust this to the size you want */
 }
 .quote {
-    font-size: 4em; /* doubled the previous font size */
+    font-size: 3.5em; 
     text-align: center;
-    color: white; /* changed color to white */
-    position: absolute; /* position it absolutely inside the quote-section */
-    bottom: 10px; /* align it to the bottom with some space */
-    left: 50%; /* center the element horizontally */
-    transform: translateX(-50%); /* shift the element back by half of its width to truly center it */
+    color: white;
     padding: 30px;
     z-index: 2;
 }
@@ -188,7 +184,7 @@ p strong[color="#2a82e0"] {
 .quote-section {
     position: relative;
     background-size: contain, 50%; 
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: no-repeat, repeat;
     background-position: center, center;
     background-attachment: scroll, fixed; 
     padding: 35px 35px;
