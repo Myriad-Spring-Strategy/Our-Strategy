@@ -49,6 +49,7 @@ body {
 
 #first-section {
     background-image: url('office.jpg');
+    margin-bottom: 20px;
 }
 
 #second-section {
@@ -89,6 +90,7 @@ body {
 }
 
 .video-container {
+    margin-top: 20px; 
   display: flex;
   justify-content: center;
   align-items: center;
