@@ -27,6 +27,7 @@ body {
 
 .section {
     position: relative;
+     background-attachment: fixed; 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -80,18 +81,20 @@ body {
 }
 
 .text-container {
-    width: 95%;
+    width: 98%;
     position: relative;
     align-items: left;
     z-index: 2;
 }
 
 .video-container {
-    width: 100%;
-    position: relative;
-    height: 0;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25x; /* adjust as needed */
+  padding-bottom: 25px; /* adjust as needed */
 }
+
 
 .video-container video {
     position: absolute;
@@ -177,10 +180,10 @@ p strong[color="#2a82e0"] {
         width: 100%;
     }
     h1 {
-        font-size: 1em;
+        font-size: 2em;
     }
     p {
-        font-size: 12px;
-        max-width: 90%;
+        font-size: 15px;
+        max-width: 95%;
     }
 }
