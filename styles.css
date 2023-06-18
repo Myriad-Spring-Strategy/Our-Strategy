@@ -160,16 +160,20 @@ p strong[color="#2a82e0"] {
 }
 
 .quote-section {
-    background-image: url('banner.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background-image: url('suntzu.png'), url('banner.png');
+    background-size: contain, 50%; 
+    background-repeat: no-repeat, repeat;
+    background-position: center, center;
+    background-attachment: scroll, fixed; 
     padding: 35px 35px;
+    min-height: 800px; /* this will ensure that the minimum height of the section is 800px */
     margin: 100px 0;
     text-align: center;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
     z-index: 2;
 }
+
+
 
 .btn {
     display: inline-block;
