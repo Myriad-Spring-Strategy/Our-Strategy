@@ -20,6 +20,16 @@ body {
 .navbar a:hover {
     color: #d6dfe6;
 }
+#first-section {
+    background: url('1.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* Add a fallback color in case the image doesn't load */
+    background-color: #d6dfe6;
+}
+
 .container {
     display: flex;
     flex-direction: column-reverse;
