@@ -3,7 +3,7 @@ body {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 550;
     letter-spacing: 0.07em;
-    line-height: 1.8em;
+    line-height: 1.7em;
 }
 
 .navbar {
@@ -73,7 +73,7 @@ body {
 }
 
 .text-container {
-    width: 90%;
+    width: 95%;
     position: relative;
     z-index: 1;
 }
@@ -98,7 +98,7 @@ h1 {
     color: #f5d419;
     text-align: center;
     padding: 20px 20px;
-    line-height: 1.9em;
+    line-height: 1.7em;
 }
 
 h2 {
@@ -108,7 +108,7 @@ h2 {
 p {
     font-size: 20px;
     color: #ffffff;
-    line-height: 1.7em;
+    line-height: 1.6em;
     padding: 10px 20px;
     text-align: left;
 }
