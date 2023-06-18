@@ -21,7 +21,7 @@ body {
     color: #d6dfe6;
 }
 #first-section {
-    background: url('1.jpeg') no-repeat center center fixed; 
+    background: url('1.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
