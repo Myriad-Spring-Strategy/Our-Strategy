@@ -130,7 +130,9 @@ p {
 p strong[color="#2a82e0"] {
     font-size: 2em;
 }
-
+#first-section p {
+    font-size: 35px; /* adjust this to the size you want */
+}
 .quote {
     font-size: 2.5em;
     text-align: center;
