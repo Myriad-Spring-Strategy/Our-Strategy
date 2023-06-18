@@ -21,7 +21,43 @@ body {
     color: #d6dfe6;
 }
 #first-section {
-    background: url('1.png') no-repeat center center fixed; 
+    background: url('office.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* Add a fallback color in case the image doesn't load */
+    background-color: #d6dfe6;
+}
+#second-section {
+    background: url('0_3.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* Add a fallback color in case the image doesn't load */
+    background-color: #d6dfe6;
+}
+#third-section {
+    background: url('7.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* Add a fallback color in case the image doesn't load */
+    background-color: #d6dfe6;
+}
+#fourth-section {
+    background: url('oil.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* Add a fallback color in case the image doesn't load */
+    background-color: #d6dfe6;
+}
+#fifth-section {
+    background: url('end.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
