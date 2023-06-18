@@ -48,7 +48,7 @@ body {
     background-color: #d6dfe6;
 }
 #fourth-section {
-    background: url('oil.png') no-repeat center center fixed; 
+    background: url('background.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -94,9 +94,10 @@ body {
 }
 h1 {
     font-size: 3em;
-    color: #2a82e0;
+    color: #f5d419;
     text-align: center;
     padding: 20px 20px;
+    line-height: 1.9em;
 }
 h2 {
     color: #2a82e0;
@@ -104,8 +105,8 @@ h2 {
 p {
        font-size: 20px;
     color: #000000; /* Updated color */
-    line-height: 2em;
-    background-color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7em;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 10px 20px; /* Padding around the text */
     max-width: 60%; /* Restrict the width of the box */
     margin: auto; /* Center the box */
