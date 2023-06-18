@@ -1,7 +1,7 @@
 body {
     background: #d6dfe6;
     font-family: 'Lexend Deca', sans-serif;
-    font-weight: 550;
+    font-weight: 560;
     letter-spacing: 0.07em;
     line-height: 1.4em;
 }
@@ -74,7 +74,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 25px;
-    max-width: 1500px;
+    max-width: 1700px;
     margin: 0 auto;
     z-index: 2;
 }
@@ -82,6 +82,7 @@ body {
 .text-container {
     width: 95%;
     position: relative;
+    align-items: left;
     z-index: 2;
 }
 
