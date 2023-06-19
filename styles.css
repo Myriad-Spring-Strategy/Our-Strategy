@@ -98,7 +98,7 @@ background-color: #1F1F1F;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 45x; /* adjust as needed */
+  padding-top: 45px; /* adjust as needed */
   padding-bottom: 45px; /* adjust as needed */
 }
 
@@ -133,9 +133,7 @@ p {
     text-align: left;
     z-index: 2;
 }
-p strong[color="#2a82e0"] {
-    font-size: 2em;
-}
+
 #first-section p {
     font-size: 35px; /* adjust this to the size you want */
 }
