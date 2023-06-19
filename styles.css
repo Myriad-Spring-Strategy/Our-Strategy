@@ -65,11 +65,11 @@ background-color: #1F1F1F;
 }
 
 #fourth-section {
-    background-image: url('background.png');
+    background-image: url('b.png');
 }
 
 #fifth-section {
-    background-image: url('end.png');
+    background-image: url('j.png');
 }
 #fifth-section:before {
     background-color: rgba(0, 0, 0, 0.8);
