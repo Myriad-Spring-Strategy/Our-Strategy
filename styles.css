@@ -187,6 +187,10 @@ p strong[color="#2a82e0"] {
     z-index: 1; /* To make sure the overlay is below the text */
 }
 .quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     position: relative;
     background-size: contain, 50%; 
     background-repeat: no-repeat, repeat;
@@ -196,8 +200,6 @@ p strong[color="#2a82e0"] {
     min-height: 800px; 
     margin: 100px 0;
     text-align: center;
-
-    /* z-index: 2; Removed for now */
 }
 
 
