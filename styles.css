@@ -168,7 +168,7 @@ p strong[color="#2a82e0"] {
 }
 
 #quote-section3 {
-    background-image: url('dragon.png'), url('ban.png');
+   
      font-size: 18px;
 }
 #quote-section3 .quote,
@@ -183,9 +183,9 @@ p strong[color="#2a82e0"] {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('ban.png');
-    background-size: 50%;
-    background-repeat: repeat;
+    background-image: url('ban.png'), url('dragon.png');
+    background-size: 50%, cover;
+    background-repeat: repeat, no-repeat;
     background-position: center;
     z-index: 1;
 }
@@ -199,6 +199,7 @@ p strong[color="#2a82e0"] {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7); /* 70% black overlay */
     z-index: 2;
+
 }
 .quote-section {
     display: flex;
