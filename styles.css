@@ -160,15 +160,15 @@ p strong[color="#2a82e0"] {
 }
 
 #quote-section1 {
-    background-image: url('suntzu.png'), url('banner.png');
+    background-image: url('suntzu.png'), url('ban.png');
 }
 
 #quote-section2 {
-    background-image: url('horse.png'), url('banner.png');
+    background-image: url('horse.png'), url('ban.png');
 }
 
 #quote-section3 {
-    background-image: url('dragon.png'), url('banner.png');
+    background-image: url('dragon.png'), url('ban.png');
      font-size: 20px;
 }
 #quote-section3::before {
