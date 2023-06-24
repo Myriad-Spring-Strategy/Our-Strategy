@@ -215,7 +215,7 @@ p {
     margin-top: 20px;
     font-size: 18px;
     color: #ffffff;
-    background-color: #2a82e0;
+    background-color: #1F1F1F;
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -223,7 +223,8 @@ p {
 }
 
 .btn:hover {
-      background-color: #2180c0;
+      background-color: #ffffff;
+      color: #1F1F1F;
 }
 
 @media (max-width: 768px) {
